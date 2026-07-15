@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get a Health Insurance Quote | nib</title>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Icons -->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="header">
+        <!-- Top Utility Bar -->
+        <div class="top-bar">
+            <div class="container top-bar-container">
+                <div class="top-bar-center">
+                    <a href="index.html" class="logo">
+                        <img src="assets/logo/nib-logo-2.png" alt="nib Health Insurance" width="75" height="25">
+                    </a>
+                </div>
+            </div>
+        </div>
+
+    </header>
+
+    <!-- Join Section -->
+    <section class="join-section">
+        <div class="container join-container">
+            <div class="join-header left-aligned">
+                <h1>Looking for the right health cover?</h1>
+                
+                <div class="icon-message">
+                    <span class="material-symbols-rounded profile-icon">face</span>
+                    <p>We respect your privacy. If you choose to provide us with your contact details, you consent to us or our partners contacting you about this quote (in line with our privacy policy, opens in a new tab of course).</p>
+                </div>
+                
+                <div class="icon-message">
+                    <span class="material-symbols-rounded info-icon">info</span>
+                    <p>All fields are optional, unless marked otherwise.</p>
+                </div>
+
+                <div class="input-first-name-wrapper">
+                    <p>Let's start with your first name</p>
+                    <div class="input-step-container no-margin-left">
+                        <input type="text" class="input-underline text-left" placeholder="First Name">
+                    </div>
+                </div>
+                
+                <div class="residency-step">
+                    <p class="step-title">Are you an Australian resident?</p>
+                    <div class="residency-grid">
+                        <label class="residency-option active">
+                            <input type="radio" name="residency" value="resident" checked>
+                            <span class="radio-circle">
+                                <span class="radio-inner-circle"></span>
+                            </span>
+                            <span class="residency-label">Australian resident</span>
+                        </label>
+                        <label class="residency-option">
+                            <input type="radio" name="residency" value="worker">
+                            <span class="radio-circle">
+                                <span class="radio-inner-circle"></span>
+                            </span>
+                            <span class="residency-label">Overseas worker</span>
+                        </label>
+                        <label class="residency-option">
+                            <input type="radio" name="residency" value="student">
+                            <span class="radio-circle">
+                                <span class="radio-inner-circle"></span>
+                            </span>
+                            <span class="residency-label">Overseas student</span>
+                        </label>
+                    </div>
+                </div>
+
+                <div class="residency-step">
+                    <p class="step-title">Who is this cover for?</p>
+                    <div class="residency-grid">
+                        <label class="residency-option active">
+                            <input type="radio" name="cover_for" value="single" checked>
+                            <span class="radio-circle">
+                                <span class="radio-inner-circle"></span>
+                            </span>
+                            <span class="residency-label">Single</span>
+                        </label>
+                        <label class="residency-option">
+                            <input type="radio" name="cover_for" value="couple">
+                            <span class="radio-circle">
+                                <span class="radio-inner-circle"></span>
+                            </span>
+                            <span class="residency-label">Couple</span>
+                        </label>
+                        <label class="residency-option">
+                            <input type="radio" name="cover_for" value="family">
+                            <span class="radio-circle">
+                                <span class="radio-inner-circle"></span>
+                            </span>
+                            <span class="residency-label">Family</span>
+                        </label>
+                        <label class="residency-option">
+                            <input type="radio" name="cover_for" value="single_parent">
+                            <span class="radio-circle">
+                                <span class="radio-inner-circle"></span>
+                            </span>
+                            <span class="residency-label">Single Parent Family</span>
+                        </label>
+                    </div>
+                </div>
+
+                <!-- Date of Birth Section -->
+                <div class="dob-step">
+                    <p class="step-title">What is your date of birth?</p>
+                    <p class="step-subtitle">DD/MM/YYYY</p>
+                    
+                    <div class="dob-inputs">
+                        <!-- Day -->
+                        <div class="dob-field day">
+                            <input type="text" class="dob-input" placeholder="DD" maxlength="2">
+                            <span class="dob-label">Day</span>
+                        </div>
+                        
+                        <!-- Month -->
+                        <div class="dob-field month">
+                            <input type="text" class="dob-input" placeholder="MM" maxlength="2">
+                            <span class="dob-label">Month</span>
+                        </div>
+                        
+                        <!-- Year -->
+                        <div class="dob-field year">
+                            <input type="text" class="dob-input" placeholder="YYYY" maxlength="4">
+                            <span class="dob-label">Year</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Phone Number Section -->
+                <div class="phone-step">
+                    <p class="step-title">What is your phone number?</p>
+                    <div class="phone-input-container">
+                        <input type="tel" class="input-underline" placeholder="0400 000 000">
+                    </div>
+                </div>
+
+                <!-- Membership Status Section -->
+                <div class="residency-step">
+                    <p class="step-title">Which option best describes you?</p>
+                    <div class="residency-grid">
+                        <label class="residency-option active">
+                            <input type="radio" name="membership_status" value="new" checked>
+                            <span class="radio-circle">
+                                <span class="radio-inner-circle"></span>
+                            </span>
+                            <span class="residency-label">New to health insurance</span>
+                        </label>
+                        <label class="residency-option">
+                            <input type="radio" name="membership_status" value="switching">
+                            <span class="radio-circle">
+                                <span class="radio-inner-circle"></span>
+                            </span>
+                            <span class="residency-label">Switching health insurers</span>
+                        </label>
+                        <label class="residency-option">
+                            <input type="radio" name="membership_status" value="current">
+                            <span class="radio-circle">
+                                <span class="radio-inner-circle"></span>
+                            </span>
+                            <span class="residency-label">Current nib member</span>
+                        </label>
+                    </div>
+                </div>
+
+                <!-- CTA -->
+                <div class="cta-container left-aligned">
+                    <button type="submit" class="btn-large-submit small-btn">Start now</button>
+                </div>
+
+                <!-- Rewards Card -->
+                <div class="rewards-card">
+                    <div class="rewards-icon">
+                        <span class="material-symbols-rounded icon-large">diamond</span>
+                    </div>
+                    <div class="rewards-content">
+                        <h4>Save everyday with nib rewards</h4>
+                        <p>nib Rewards gives you access to great rewards like discounted travel and accommodation, plus saving on health and wellbeing services like gym visits, yoga and Pilates. nib Rewards unlock following your cooling off period.</p>
+                    </div>
+                </div>
+                </form>
+            </div>
+
+           
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer footer-compact">
+        <!-- Acknowledgement Section -->
+        <div class="footer-acknowledgement">
+            <div class="ack-container">
+                <div class="ack-logo">
+                    <img src="assets/img/foot-img-over-top.png" alt="Acknowledgement Logo" width="100">
+                </div>
+                <div class="ack-text-box">
+                    <p>We acknowledge Aboriginal and Torres Strait Islander peoples as the Traditional Custodians of the
+                        lands where we live, learn and work.</p>
+                    <a href="#" class="arrow-link-white">View our Reconciliation Action Plan <span
+                            class="material-symbols-rounded">arrow_forward</span></a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer Bottom -->
+        <div class="footer-bottom">
+            <div class="container footer-bottom-container space-between">
+                <div class="bottom-left">
+                    <p>Copyright © 2025 nib health funds limited ABN 83 000 124 381</p>
+                </div>
+                <div class="bottom-right bottom-right-links">
+                    <a href="#" class="footer-link-white">Fund Rules</a>
+                    <a href="#" target="_blank" class="footer-link-white">Terms & Conditions, opens in a new tab</a>
+                    <a href="#" class="privacy-link footer-link-white">Privacy Policy</a>
+                    <a href="#" class="footer-link-white">Code of Conduct</a>
+                    <a href="tel:131642" class="footer-phone-white">
+                        13 16 42
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Simple script to handle interactivity
+        document.addEventListener('DOMContentLoaded', () => {
+            // Cover Type Selection
+            const coverOptions = document.querySelectorAll('.cover-option');
+            coverOptions.forEach(option => {
+                option.addEventListener('click', () => {
+                    coverOptions.forEach(o => o.classList.remove('active'));
+                    option.classList.add('active');
+                    const radio = option.querySelector('input[type="radio"]');
+                    if(radio) radio.checked = true;
+                });
+            });
+
+            // State Selection
+            const stateOptions = document.querySelectorAll('.state-option');
+            stateOptions.forEach(option => {
+                option.addEventListener('click', () => {
+                    stateOptions.forEach(o => o.classList.remove('active'));
+                    option.classList.add('active');
+                });
+            });
+        });
+    </script>
+</body>
+
+</html>
